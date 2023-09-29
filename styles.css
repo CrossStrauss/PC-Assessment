@@ -27,7 +27,7 @@ body{
 
 .firstDiv{
     width: 100vw;
-    height: 50vw;
+    height: 40vw;
 }
 
 .navBar{
@@ -80,7 +80,7 @@ body{
 
 .parrallaxImageDiv{
     width: 96%;
-    height: 80%;
+    height: 100%;
     transform: skewX(-15deg) translateX(-7%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 50px;
@@ -179,8 +179,8 @@ body{
 }
 
 .contentSectionDiv{
-    width: 100%;
-    height: 50%;
+    width: 100vw;
+    height: 30vw;
 }
 
 .contentHeadline{
@@ -211,7 +211,7 @@ body{
     width:100%;
     height: 37%;
     display: flex;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .paragraphLeft{
@@ -241,7 +241,7 @@ body{
     display:  flex;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 
 .contentBtn button{
@@ -249,8 +249,8 @@ body{
     color: #E48E37;
     background: none;
     border: 1px solid #E48E37;
-    padding: 1%;
-    border-radius: 8px;
+    padding: 0.8%;
+    border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -259,4 +259,10 @@ body{
     background-color: #E48E37;
     color: white;
     transition: 0.3s;
+}
+
+.productDiv{
+    width: 100vw;
+    height:50vw;
+    background-color: #58595B;
 }
