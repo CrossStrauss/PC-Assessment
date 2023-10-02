@@ -683,6 +683,20 @@ body{
 }
 .footerDiv{
     width: 100vw;
-    height:25vw;
-    background-color: #E48E37;
+    height:35vw;
+    background-color: #036099;
+}
+
+.copyRight{
+    width: 100vw;
+    height: 4vw;
+    background-color:#036099;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyRight h1{
+    color: #96D6FA;
+    font-size: 1vw;
 }
