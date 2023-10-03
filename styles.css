@@ -921,9 +921,9 @@ body{
 
 /* Media Queries */
 
-@media only screen and (max-width: 860px){
+@media only screen and (max-width: 768px){
     .contentSectionDiv{
-        height: 100vw;
+        height: 150vw;
     }
 
     .contentHeadline{
@@ -933,6 +933,42 @@ body{
 
     .contentHeadlineText{
         padding-bottom: 0;
-        font-size: 5vw; 
+        font-size: 6vw; 
+    }
+
+    .contentSubheadingText{
+        padding-top: 2vw;
+        margin-bottom: 0;
+        font-size: 4vw;
+    }
+
+    .contentParagraph{
+        flex-direction: column;
+        height: 65%;
+    }
+
+    .paragraphLeft{
+        width: 100%;
+
+    }
+
+    .paragraphRight{
+        width: 100%;
+    }
+
+    .paragraphContainer{
+        width: 100%;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .contentBtn{
+        align-items: center;
+    }
+
+    .contentBtn button{
+        width: 60%;
+        height: 50%;
+        font-size: 3vw;
     }
 }
