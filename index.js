@@ -11,7 +11,11 @@ menuIcon.addEventListener("click",toggleMenu);
 
 
 let menu = document.getElementById("dropDownHamburgerMenu");
+let mobileMenu = document.getElementById("mobileMenu");
 let menuOpen = false;
+
+
+
 
 let paralaxImageTop =  document.getElementById("paralaxImageTop");
 let bottomParalaxBanner = document.getElementById("testemonialParalaxImage")
@@ -23,10 +27,12 @@ function toggleMenu(){
 
     
     if(menuOpen) {
-        menu.style.height = "10vw"; 
+        menu.style.height = "10vw";
+        mobileMenu.style.transform = "translateX(-0.1vw)" 
         menuIcon.style.transform = 'rotate(180deg)';   
     } else {
         menu.style.height = "0"; 
+        mobileMenu.style.transform = "translateX(40vw)" 
         menuIcon.style.transform = 'rotate(-180deg)'; 
     }
 }
