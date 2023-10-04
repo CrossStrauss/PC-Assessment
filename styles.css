@@ -1020,6 +1020,7 @@ body{
     }
 
     .menuBtnMobile{
+        font-size: 3vw;
        padding: 2vw;
        margin-bottom: 1vw;
        width: 80%;
@@ -1252,4 +1253,125 @@ body{
         height: 11vw;
         transform: translateY(40%);
     }
+
+    .testemonials{
+        height: 100vw;
+    }
+
+    .testemonialIndicatorsMobile{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .testemonialIndicatorsMobile [data-bs-target]{
+        width: 20%;
+        height: 3.5vw;
+        transform:translateY(300%);
+        margin-right: 5%;
+        
+    }
+
+    .testContainer{
+        width: 100%;
+    }
+
+    .reviewDiv{
+        width: 90%;
+    }
+
+    .carouselDiv{
+        align-items: center;
+    }
+
+    .reviewText{
+        width: 100%;
+    }
+
+    .reviewText p{
+        font-size: 3.5vw;
+    }
+
+    .quote h1{
+        font-size: 4vw;
+    }
+
+    .userDetails h1{
+        font-size: 3vw;
+    }
+
+    .userDetails img{
+        width: 35%;
+    }
+
+    .userDetails h3{
+        font-size: 2vw;
+    }
+    #testemonialParalaxImage{
+        height: 100%;
+    }
+
+    .testemonialsIndicators{
+        width: 100%;
+    }
+
+    .footerDiv{
+        height: 45vw;
+    }
+
+    .footerGrid{
+        display: flex;
+    }
+
+    .linkGrid-1{
+        display: none;
+    }
+
+    .linkGrid-2{
+        display: none;
+    }
+
+    .linkGrid-3{
+        display: none;
+    }
+
+    .contactDiv{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoEmaildiv{
+        width: 50%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .socialLinks{
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .socialLinks img{
+        width: 11vw;
+    }
+
+    .contactDetails{
+        font-size: 3.5vw;
+    }
+
+    .copyRight{
+        height: 15vw;
+    }
+
+    .copyRight h1{
+        font-size: 3.5vw;
+    }
+
 }
