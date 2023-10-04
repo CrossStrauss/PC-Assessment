@@ -1170,4 +1170,86 @@ body{
     .arrowIcon{
         width: 3vw;
     }
+
+    .sliderHeader{
+        align-items: center;
+        height: 10%;
+    }
+    .sliderHeader h1{
+        font-size: 4vw;
+        padding: 0;
+    }
+
+    .sliderDiv{
+        height: 150vw;
+    }
+
+    .carousel-item .tileGrid{
+        grid-template-columns: 50% 50%;
+    }
+
+    .applicationTile{
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .applicationTile:hover .paraCol{
+        height: 70%;
+    }
+
+    .applicationTile:hover{
+        transform: translateY(0);
+    }
+
+    .paraCol{
+        height: 70%;
+    }
+
+    .applicationTile p{
+        font-size: 3vw;
+
+    }
+    
+    .applicationTile a{
+        font-size: 3vw;
+        pointer-events: all;
+    }
+
+    .mobileCarouselInner{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .arrowHolder{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .applicationArrowIcon{
+        width: 50%;
+        height: auto;
+    }
+
+    .mobileCarouselDiv{
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 90%;
+    }
+
+    .applicationIndicatorsMobile{
+        width: 100%;
+    }
+
+    .IndicatorsMobile{
+        justify-content: space-evenly;
+    }
+
+    .IndicatorsMobile [data-bs-target] {
+        width: 11vw;
+        height: 11vw;
+        transform: translateY(40%);
+    }
 }
